@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function forLoop(array){
   for (let i = 0; i < 25; i++){
    if (i !== 1){
@@ -30,11 +31,25 @@ function doWhileLoop(y){
   do {
     console.log("I run once regardless.")
   } while (incrementVariable() <= y)
+=======
+
+function forLoop(array){
+  for (let i = 0; i < 25; i++){
+   if (i !== 1){
+     array.push(`I am ${i} strange loop.`)
+    }else if(i === 1){
+      array.push("I am 1 strange loop.")
+    }
+  }
+>>>>>>> 96cef4bec4bdf8047f017e9826b5c08c5d4296dc
 }
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 96cef4bec4bdf8047f017e9826b5c08c5d4296dc
